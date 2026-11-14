@@ -8,3 +8,5 @@
 .contact-block{border-top:1px solid var(--edge);padding-top:18px}.contact-block p{margin:0 0 14px}.contact-block p:last-child{margin-bottom:0}.contact-block strong{color:var(--ink)}
 
 #about .background-paragraph{margin-top:30px}
+
+.research-topic{margin-top:26px;padding-top:26px;border-top:1px solid var(--edge)}.research-topic:first-of-type{margin-top:0;padding-top:0;border-top:0}.research-topic .associated-paper{background:var(--pale);border-left:3px solid var(--edge);padding:12px 15px;font-size:15px}

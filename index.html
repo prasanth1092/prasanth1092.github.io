@@ -14,7 +14,7 @@
     <div class="container nav-wrap">
       <a class="brand" href="#home">Prasanth Yalamanchili</a>
       <nav aria-label="Main navigation">
-        <a href="#about">About</a><a href="#research">Research Interests</a><a href="#publications">Papers</a><a href="#teaching">Teaching</a><a href="#cv">CV</a>
+        <a href="#about">About</a><a href="#research">Research</a><a href="#teaching">Teaching</a><a href="#cv">CV</a>
       </nav>
     </div>
   </header>
@@ -22,10 +22,10 @@
     <aside class="profile" id="home" aria-label="Profile and contact information">
       <img class="portrait" src="Prasanth.jpeg" alt="Prasanth Yalamanchili outdoors in the snow" width="1536" height="2048" fetchpriority="high">
       <h1>Prasanth Yalamanchili</h1>
-      <p class="profile-role">PhD Researcher<br>Computer Science<br>University of Utah</p>
+      <p class="profile-role">PhD Student<br><a href="https://www.cs.utah.edu/">Kahlert School of Computing</a><br><a href="https://www.utah.edu/">University of Utah</a></p>
       <address class="contact-block" aria-label="Contact information">
         <p><strong>LinkedIn:</strong><br><a href="https://www.linkedin.com/in/prasanth-yalamanchili-78169216a/" target="_blank" rel="noopener noreferrer">Prasanth Yalamanchili ↗</a></p>
-        <p><strong>Mobile:</strong><br><a href="tel:+18014629432">+1 8014629432</a></p>
+        <p><strong>Email:</strong><br><a href="mailto:prasanthco100@gmail.com">prasanthco100@gmail.com</a></p>
         <p>Salt Lake City, Utah</p>
       </address>
       <div class="profile-links"><a href="https://github.com/prasanth1092" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
@@ -33,35 +33,38 @@
     <div class="academic-content">
       <section id="about" class="content-section">
         <h2>About Me</h2>
-        <p>I am a PhD researcher in Computer Science at the University of Utah, advised by <a href="https://users.cs.utah.edu/~bhaskara/#teaching">Prof. Aditya Bhaskara</a>. I develop algorithms for graph optimization, robust network design, and machine learning, using probability, linear algebra, and convex optimization to establish provable guarantees.</p>
+        <p>I am a PhD student in the <a href="https://www.cs.utah.edu/">Kahlert School of Computing</a> at the <a href="https://www.utah.edu/">University of Utah</a>, advised by <a href="https://users.cs.utah.edu/~bhaskara/#top">Prof. Aditya Bhaskara</a>. I develop algorithms for graph optimization, robust network design, and machine learning, using probability, linear algebra, and convex optimization to establish provable guarantees.</p>
         <p class="background-paragraph">Prior to this, I completed my undergraduate degree in Computer Science at <a href="https://www.iitbbs.ac.in/">IIT Bhubaneswar</a> in 2019 and then worked at Deloitte USI for two years, from 2019 to 2021.</p>
       </section>
       <section id="research" class="content-section">
-        <h2>Research Interests</h2>
-        <p>My research lies at the intersection of theoretical computer science, graph optimization, and machine learning. I use probability theory, linear algebra, and convex optimization to design algorithms with provable guarantees.</p>
-        <ul class="interest-list">
-          <li><strong>Graph algorithms and network design.</strong> Improving network robustness, connectivity, and efficiency through edge augmentation, with a focus on spectral methods, effective resistance, and probabilistic graphs.</li>
-          <li><strong>Data selection and dimensionality reduction.</strong> Selecting representative features and informative samples while preserving structure, including column subset selection and optimal experiment design for regression.</li>
-          <li><strong>Learning from sparse and evolving data.</strong> Recommendation algorithms, matrix completion, and compressed sensing for streaming user-item interactions.</li>
-        </ul>
-        <p>I have also explored blockchain security and fully homomorphic encryption for privacy-preserving machine learning.</p>
-      </section>
-      <section id="publications" class="content-section">
-        <h2>Papers</h2>
-        <ol class="paper-list">
-          <li><article>
-            <h3>Graph Augmentation for Min Effective Resistances using Column Subset Selection</h3>
-            <p>Structure-preserving feature selection under multiple matrix norms, with applications to graph augmentation and effective resistance.</p>
-          </article></li>
-          <li><article>
-            <h3>Optimizing Probabilistic Propagation in Graphs by Adding Edges</h3>
-            <p>Edge-augmentation algorithms for improving worst-case connectivity in probabilistic networks, using percolation theory to analyze stochastic failures.</p>
-          </article></li>
-          <li><article>
-            <h3>Clustering-Based Edge Augmentation for Minimizing the Kirchhoff Index</h3>
-            <p>Clustering-based algorithms for improving network efficiency through the Kirchhoff index, connecting effective resistance, random walks, and network flows.</p>
-          </article></li>
-        </ol>
+        <h2>Research</h2>
+        <article class="research-topic">
+          <h3>Structure-Preserving Feature Selection and Graph Augmentation</h3>
+          <p>I develop algorithms to select informative, representative features from high-dimensional data under multiple matrix norms. This work connects data summarization and dimensionality reduction with graph augmentation and effective resistance.</p>
+          <p class="associated-paper"><strong>Paper:</strong> <em>Graph Augmentation for Min Effective Resistances using Column Subset Selection</em></p>
+        </article>
+        <article class="research-topic">
+          <h3>Probabilistic Connectivity and Network Robustness</h3>
+          <p>I study how adding edges can improve worst-case connectivity in probabilistic networks. Using tools from percolation theory, I analyze networks under stochastic failures and design algorithms with connectivity guarantees.</p>
+          <p class="associated-paper"><strong>Paper:</strong> <em>Optimizing Probabilistic Propagation in Graphs by Adding Edges</em></p>
+        </article>
+        <article class="research-topic">
+          <h3>Effective Resistance and Network Efficiency</h3>
+          <p>I develop clustering-based edge-augmentation algorithms to minimize the Kirchhoff index, a spectral measure of network efficiency. This work connects effective resistance, random walks, and network flows.</p>
+          <p class="associated-paper"><strong>Paper:</strong> <em>Clustering-Based Edge Augmentation for Minimizing the Kirchhoff Index</em></p>
+        </article>
+        <article class="research-topic">
+          <h3>Optimal Experiment Design</h3>
+          <p>I am developing algorithms to select informative samples for regression models under budget constraints, using prior information to reduce parameter uncertainty and improve estimation accuracy.</p>
+        </article>
+        <article class="research-topic">
+          <h3>Recommendation Systems and Streaming Data</h3>
+          <p>I have investigated recommendation algorithms for sparse, evolving user-item interactions, exploring matrix completion and compressed sensing techniques for streaming data.</p>
+        </article>
+        <article class="research-topic">
+          <h3>Cryptography and Privacy-Preserving Machine Learning</h3>
+          <p>I have also explored blockchain security and the BFV fully homomorphic encryption scheme for privacy-preserving machine learning, including techniques for efficient polynomial and modular multiplication.</p>
+        </article>
       </section>
       <section id="teaching" class="content-section">
         <h2>Teaching</h2>
