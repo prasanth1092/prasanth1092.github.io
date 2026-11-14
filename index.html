@@ -14,69 +14,63 @@
     <div class="container nav-wrap">
       <a class="brand" href="#home">Prasanth Yalamanchili</a>
       <nav aria-label="Main navigation">
-        <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#teaching">Teaching</a><a href="#cv">CV</a>
+        <a href="#about">About</a><a href="#research">Research Interests</a><a href="#publications">Papers</a><a href="#teaching">Teaching</a><a href="#cv">CV</a>
       </nav>
     </div>
   </header>
-  <main id="main">
-    <section class="hero container" id="home">
+  <main id="main" class="container academic-layout">
+    <aside class="profile" id="home" aria-label="Profile and contact information">
       <div class="portrait" aria-label="Placeholder for an academic profile photo"><span>PY</span><small>Photo coming soon</small></div>
-      <div id="about">
-        <p class="eyebrow">Computer Science · University of Utah</p>
-        <h1>Prasanth Yalamanchili</h1>
-        <p class="lead">PhD Student · Algorithms &amp; Optimization</p>
-        <p>I am a PhD researcher in Computer Science at the University of Utah, advised by Prof. Aditya Bhaskara. I develop algorithms for graph optimization, robust network design, and machine learning, using probability, linear algebra, and convex optimization to establish provable guarantees.</p>
-        <p>My thesis, <em>Edge Augmentations for Robust and Fair Network Design</em>, studies how adding edges can improve network robustness and efficiency. My research also spans structure-preserving feature selection and optimal experiment design.</p>
-        <p>I earned my BTech in Computer Science from IIT Bhubaneswar in 2019. Before and during my PhD, I worked at Deloitte USI and TaxBit.</p>
-        <p><a href="mailto:prasanthco100@gmail.com">prasanthco100@gmail.com</a> · Salt Lake City, Utah</p>
-        <div class="actions"><a class="button" href="#research">Explore research</a><a class="button secondary" href="https://github.com/prasanth1092" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
-      </div>
-    </section>
-    <section class="section" id="research">
-      <div class="container narrow">
-        <h2>Research projects</h2>
-        <p class="section-intro">Algorithms for selecting informative data and building more robust, efficient networks.</p>
-        <ol class="research-list">
+      <h1>Prasanth Yalamanchili</h1>
+      <p class="profile-role">PhD Researcher<br>Computer Science<br>University of Utah</p>
+      <address>
+        <a href="mailto:prasanthco100@gmail.com">prasanthco100@gmail.com</a><br>
+        Salt Lake City, Utah
+      </address>
+      <div class="profile-links"><a href="https://github.com/prasanth1092" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+    </aside>
+    <div class="academic-content">
+      <section id="about" class="content-section">
+        <h2>About</h2>
+        <p>I am a PhD researcher in Computer Science at the University of Utah, advised by <a href="https://users.cs.utah.edu/~bhaskara/">Prof. Aditya Bhaskara</a>. My thesis is titled <em>Edge Augmentations for Robust and Fair Network Design</em>.</p>
+        <p>I earned my BTech in Computer Science from IIT Bhubaneswar in 2019 and joined Utah in 2021. My industry experience includes business technology analysis at Deloitte USI and software development on the blockchain team at TaxBit.</p>
+      </section>
+      <section id="research" class="content-section">
+        <h2>Research Interests</h2>
+        <p>My research lies at the intersection of theoretical computer science, graph optimization, and machine learning. I use probability theory, linear algebra, and convex optimization to design algorithms with provable guarantees.</p>
+        <ul class="interest-list">
+          <li><strong>Graph algorithms and network design.</strong> Improving network robustness, connectivity, and efficiency through edge augmentation, with a focus on spectral methods, effective resistance, and probabilistic graphs.</li>
+          <li><strong>Data selection and dimensionality reduction.</strong> Selecting representative features and informative samples while preserving structure, including column subset selection and optimal experiment design for regression.</li>
+          <li><strong>Learning from sparse and evolving data.</strong> Recommendation algorithms, matrix completion, and compressed sensing for streaming user-item interactions.</li>
+        </ul>
+        <p>I have also explored blockchain security and fully homomorphic encryption for privacy-preserving machine learning.</p>
+      </section>
+      <section id="publications" class="content-section">
+        <h2>Papers</h2>
+        <ol class="paper-list">
           <li><article>
-            <p class="project-date">2026–present</p>
-            <h3>Optimal Experiment Design in Statistical Regression Models</h3>
-            <p>I am developing algorithms to select informative samples for regression models under budget constraints. This work uses prior information to reduce parameter uncertainty and improve estimation accuracy.</p>
+            <h3>Graph Augmentation for Min Effective Resistances using Column Subset Selection</h3>
+            <p>Structure-preserving feature selection under multiple matrix norms, with applications to graph augmentation and effective resistance.</p>
           </article></li>
           <li><article>
-            <p class="project-date">2025–2026</p>
-            <h3>Structure-Preserving Feature Selection for High-Dimensional Data</h3>
-            <p>I developed algorithms to select informative, representative features from high-dimensional datasets under multiple matrix norms. These methods support data summarization and dimensionality reduction, with applications to graph optimization.</p>
-            <p class="project-paper"><strong>Paper:</strong> <em>Graph Augmentation for Min Effective Resistances using Column Subset Selection</em></p>
+            <h3>Optimizing Probabilistic Propagation in Graphs by Adding Edges</h3>
+            <p>Edge-augmentation algorithms for improving worst-case connectivity in probabilistic networks, using percolation theory to analyze stochastic failures.</p>
           </article></li>
           <li><article>
-            <p class="project-date">2023–2024</p>
-            <h3>Optimizing Probabilistic Distances in Social Networks via Link Recommendation</h3>
-            <p>I designed edge-augmentation algorithms for probabilistic graphs to improve worst-case connectivity. Using tools from percolation theory, I analyzed networks under stochastic failures and proved connectivity guarantees.</p>
-            <p class="project-paper"><strong>Paper:</strong> <em>Optimizing Probabilistic Propagation in Graphs by Adding Edges</em></p>
-          </article></li>
-          <li><article>
-            <p class="project-date">2025</p>
-            <h3>Optimizing Resistance-Based Flow Metrics in Social Networks</h3>
-            <p>I developed clustering-based algorithms to minimize the Kirchhoff index, a spectral measure of network efficiency. This work connects edge augmentation with effective resistance, random walks, and network flows.</p>
-            <p class="project-paper"><strong>Paper:</strong> <em>Clustering-Based Edge Augmentation for Minimizing the Kirchhoff Index</em></p>
-          </article></li>
-          <li><article>
-            <p class="project-date">2022–2023</p>
-            <h3>Recommendation Systems for Streaming Data</h3>
-            <p>I investigated recommendation algorithms with provable guarantees for sparse, evolving user-item interactions. I explored matrix completion techniques from compressed sensing to address the challenges of streaming data.</p>
-          </article></li>
-          <li><article>
-            <p class="project-date">Cryptography research · DRDO Delhi &amp; University of Utah</p>
-            <h3>Blockchain and Fully Homomorphic Encryption</h3>
-            <p>I explored hashing, digital signatures, zero-knowledge proofs, and pseudorandom generators in the context of Bitcoin and Ethereum security. I also investigated the BFV fully homomorphic encryption scheme for privacy-preserving machine learning, including relinearization and error overheads.</p>
-            <p>I explored GPU performance improvements for polynomial and modular multiplication using residue number systems, number-theoretic transforms, and Barrett and Montgomery reductions.</p>
+            <h3>Clustering-Based Edge Augmentation for Minimizing the Kirchhoff Index</h3>
+            <p>Clustering-based algorithms for improving network efficiency through the Kirchhoff index, connecting effective resistance, random walks, and network flows.</p>
           </article></li>
         </ol>
-      </div>
-    </section>
-    <section class="section pale" id="publications"><div class="container narrow"><h2>Publications</h2><p>Publication entries, preprints, and links to papers will be added here. Each entry can include authors, venue, year, and PDF/code links.</p><p class="placeholder">Publications list coming soon.</p></div></section>
-    <section class="section" id="teaching"><div class="container narrow"><h2>Teaching</h2><p>I have experience supporting graduate-level algorithms instruction as a teaching assistant, including developing assessment questions and course materials.</p><p>Details about teaching appointments, courses, and instructional philosophy will be added here.</p></div></section>
-    <section class="section pale" id="cv"><div class="container narrow"><h2>Curriculum Vitae</h2><p>My academic CV will be available here shortly.</p><p class="placeholder">CV PDF coming soon.</p></div></section>
+      </section>
+      <section id="teaching" class="content-section">
+        <h2>Teaching</h2>
+        <p>I have served as a teaching assistant for Graduate and Advanced Algorithms, Theory of Machine Learning, Probability and Statistics, Introduction to Data Science, and Introduction to Programming. My responsibilities included lab sessions, office hours, grading, and supporting lecture delivery.</p>
+      </section>
+      <section id="cv" class="content-section">
+        <h2>Curriculum Vitae</h2>
+        <p>Please <a href="mailto:prasanthco100@gmail.com">contact me</a> for my CV.</p>
+      </section>
+    </div>
   </main>
   <footer><div class="container footer-row"><span>© <span id="year">2026</span> Prasanth Yalamanchili</span><a href="https://github.com/prasanth1092" target="_blank" rel="noopener noreferrer">GitHub</a></div></footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
