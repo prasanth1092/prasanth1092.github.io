@@ -10,3 +10,7 @@
 #about .background-paragraph{margin-top:30px}
 
 .research-topic{margin-top:26px;padding-top:26px;border-top:1px solid var(--edge)}.research-topic:first-of-type{margin-top:0;padding-top:0;border-top:0}.research-topic .associated-paper{background:var(--pale);border-left:3px solid var(--edge);padding:12px 15px;font-size:15px}
+
+.paper-venue{display:inline-block;margin-top:6px;font-weight:600;color:var(--accent)}
+
+.main-research{margin:0;padding-left:25px}.main-research>li{padding-left:8px;margin-bottom:28px}.main-research>li:last-child{margin-bottom:0}.main-research>li::marker{font-weight:700;color:var(--accent)}.main-research .research-topic{margin:0;padding:0;border:0}
