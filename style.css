@@ -14,4 +14,3 @@
 .paper-venue{display:inline-block;margin-top:6px;font-weight:600;color:var(--accent)}
 
 .main-research{margin:0;padding-left:25px}.main-research>li{padding-left:8px;margin-bottom:28px}.main-research>li:last-child{margin-bottom:0}.main-research>li::marker{font-weight:700;color:var(--accent)}.main-research .research-topic{margin:0;padding:0;border:0}
-.availability { color: #b91c1c; font-weight: 700; }
